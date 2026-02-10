@@ -7,9 +7,9 @@
 
 :root {
     /* Colors */
-    --primary-color: #2563eb;
-    --primary-dark: #1e40af;
-    --secondary-color: #10b981;
+    --primary-color: #e11d48;
+    --primary-dark: #be123c;
+    --secondary-color: #0f172a;
     --accent-color: #f59e0b;
     --text-dark: #1f2937;
     --text-light: #6b7280;
@@ -28,7 +28,7 @@
     --spacing-xxl: 4rem;
     
     /* Typography */
-    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-main: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-size-base: 16px;
     
     /* Transitions */
@@ -168,7 +168,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
     background-image: url('./../image/akshayraj-tech-tambaram.jpg');
     background-size: cover;
     background-position: center;
@@ -182,7 +182,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.95) 0%, rgba(16, 185, 129, 0.9) 100%);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(225, 29, 72, 0.85) 100%);
 }
 
 .hero-content {
@@ -238,8 +238,8 @@ a {
     display: inline-flex;
     align-items: center;
     gap: var(--spacing-xs);
-    padding: var(--spacing-md) var(--spacing-xl);
-    border-radius: 50px;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: 6px;
     font-weight: 600;
     font-size: 1.1rem;
     cursor: pointer;
@@ -402,8 +402,8 @@ section {
 
 .service-card {
     background: white;
-    padding: var(--spacing-xl);
-    border-radius: 12px;
+    padding: var(--spacing-lg);
+    border-radius: 8px;
     box-shadow: var(--shadow-md);
     transition: var(--transition-normal);
     border: 2px solid transparent;
@@ -474,7 +474,7 @@ section {
 
 .specialized-card {
     background: white;
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
     transition: var(--transition-normal);
@@ -529,8 +529,8 @@ section {
 
 .brand-tag {
     background: var(--bg-light);
-    padding: var(--spacing-sm) var(--spacing-lg);
-    border-radius: 50px;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 4px;
     font-weight: 600;
     color: var(--text-dark);
     border: 2px solid var(--border-color);
@@ -557,7 +557,7 @@ section {
 .areas-column {
     background: white;
     padding: var(--spacing-xl);
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: var(--shadow-md);
 }
 
@@ -608,7 +608,7 @@ section {
 .info-card {
     background: white;
     padding: var(--spacing-lg);
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: var(--shadow-md);
     text-align: center;
     transition: var(--transition-normal);
@@ -664,7 +664,7 @@ section {
 .contact-form-container {
     background: white;
     padding: var(--spacing-xl);
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: var(--shadow-md);
 }
 
@@ -706,7 +706,7 @@ section {
 
 /* Map Container */
 .map-container {
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     margin-top: var(--spacing-xl);
